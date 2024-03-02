@@ -1,0 +1,61 @@
+#h21 {
+    text-decoration: underline;
+}
+#h22 {
+    text-decoration: line-through;
+}
+#h23 {
+    text-decoration:overline;
+}
+#h24 {
+    text-decoration:dashed ;
+}
+#h25 {
+    text-decoration:dotted ;
+}
+#h26 {
+    text-decoration:wavy ;
+}
+
+/* untuk none menghilangkan garis bawah pada link */
+a {
+    text-decoration: none;
+}
+
+.capital {
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.uppercase{
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.lowercase{
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+.a011 {
+    text-align:right;
+}
+
+.a001 {
+    text-align: justify;
+}
+
+.p11 {
+    line-height: 50px;
+} 
+/* diatas adalah spacing text atas bawah */
+
+.p12 {
+    text-indent: 340px ;
+} 
+
+/* diatas adalah pemberian spacing pada awal paragraf */

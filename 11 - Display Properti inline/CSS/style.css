@@ -1,0 +1,13 @@
+a,input{
+    display: block;
+    margin-top: 5px;
+}
+/* awalnya ini adalah berbentuk baris trus dijadikan ke baris */
+ul li {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-top: 10px;
+}
+/* klo menggunakan inline maka tak bisa di sizing */

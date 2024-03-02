@@ -1,0 +1,52 @@
+.container {
+    width: 500px;
+    height: 500px;
+    border: 3px solid;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* nowrap = akan menampung semua items di kotak  
+        wrap = klo penuh containernya akan membuat baris baru dibawah
+        wraph-reverse = items awal akan di taruh dipaling bawah
+    
+    */
+    /* flex-direction: column; */
+    /* coloum dari item dri atas ke bawah
+        colum-reverse item dri bawah ke atas
+    
+    */
+    
+    
+    /* justify-content: center; */
+
+    /* 
+    center = rata tengah
+    space-around = margin atas jarak yang sama antar items
+    flex-start = dri kiri
+    flex-end = dri kanan
+    space-between = jarak yang sama untuk item selain yang pertama dan yang terakhir
+    space-evenly = margin yang sama
+     */
+
+     /* align-items: center; */
+     align-content: center
+
+}
+
+.box1, .box2, .box3, .box4 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 5px;
+    color: white;
+    font-size: 24px;
+}
+
+.box1 {
+    order: 4;
+}
+
+.box2 {
+    flex: 10;
+    align-self: center;
+}

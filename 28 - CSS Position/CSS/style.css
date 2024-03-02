@@ -1,0 +1,54 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+p{
+    background-color:aqua ;
+}
+
+.pfixed {
+    position :fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: coral;
+    z-index: 2;
+    /* zindex digunakan untuk tampilan utama kah? kedua kah atau ke 3 */
+}
+
+.container {
+    margin-top: 200px;
+}
+
+.container .prelative {
+    background-color: blue;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    /* dia bisa digeser dengan commmand diatas, tapi kotaknya tidak akan berubah semakin tinggi angka semakin dilayer paling depan*/
+}
+
+.container .pabsoulute {
+    background-color: bisque;
+    position: absolute;
+    left: 500px;
+    top: 530px;
+}
+
+.container .psticky1{
+    background-color: brown;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+   
+}
+
+.container .psticky2{
+    background-color: brown;
+    position: sticky;
+    top: 45px;
+    z-index: 3;
+
+}

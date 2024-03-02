@@ -1,0 +1,35 @@
+.main{
+    margin: 0px  ;
+    padding: 0px;
+    width: 900px;
+}
+
+article {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+article img {
+    width: 500px;
+    height: 300px;
+    float:left;
+    /* margin-top: 10px;
+    margin-left: 20px;
+    */
+    margin: 10px 20px;
+    /* 
+    jika margin : 10px maka setiap sisinya 10px
+    klo margin : 10px 20px maka atas bawah 10px, kiri kanan 20px
+    klo margin : 10px 20px 12px, 10px untuk atas, 20px kanan, 12px untuk bawah
+    klo 4 : atas kanan bawah kiri mengikuti arah jarum jam
+    */
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+p{
+    margin-left: 20px;
+}

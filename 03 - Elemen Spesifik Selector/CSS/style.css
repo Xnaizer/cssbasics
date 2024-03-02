@@ -1,0 +1,13 @@
+cite {
+    color: blue;
+}
+
+
+/* ini maksudnya warna cite yang di dalam blockqoute */
+blockquote cite {
+    color: red;
+}
+
+article p {
+    font-size: 24px;
+}

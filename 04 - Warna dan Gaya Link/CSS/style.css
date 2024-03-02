@@ -1,0 +1,20 @@
+ /* ini ketika link di tekan akan berubah warna menjadi warna merah  */
+ .navigasi:link{
+    color: red;
+ }
+
+ /* ini ketika link sudah pernah ditekan akan berubah warna */
+ .navigasi2:visited{
+    color: violet;
+ }
+
+ /* ini ketika kursor mouse berada diatas link */
+ .navigasi3:hover{
+    color: greenyellow;
+ }
+
+ /* ini ketika link dalam keadaan aktif/di-klik
+     --> */
+     .navigasi4:active{
+        color: greenyellow;
+     }

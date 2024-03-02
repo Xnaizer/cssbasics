@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+      <!-- content here -->
+      <!-- 
+          penjelasan disini adalah kita akan menggunakan library css dari bootstrap, kenapa? pengerjaan yang singkat dan tidak menggunakan waktu yang lama.
+          
+          pertanyaannya gimana cara menggunakannya? bootstrap telah membuat class/id di library css mereka, dimana kita sebagai user hanya perlu mencocokkan class/id yang telah mereka gunakan
+          
+          ex class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top py-3"
+          
+          navbar = class css yang sudah di modif untuk membuat bar navigasi yang biasanya terletak pada atas website
+          
+          navbar-expand = mengatur size navbar ketika dia di zoom dekat maka size bar akan besar ataupun sebaliknya, -lg = ketika melihat dengan monitor yang size gede maka tampilan isi dari navbar akan menjadi list( atau tersusun ke bawah)
+          
+          bg-dark = background nya / tampilannya hitam
+          
+          nav-dark = tulisannya warna putih
+          
+          fixed = library dari position yaitu fixed position untuk membuat suatu navbar berada diposisinya tidak hilang ketika discroll halaman website nya keatas
+          fixed-top = meminta fixed di bagian atas halaman
+          
+          
+          
+          
+          
+          
+          
+        -->
+        
+        
+        
+    <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top py-3">
+        <div class="container">
+            <!-- container = membuat teks didalam box dengan margin rata tengah -->
+            <a href="bootnavbar.htm" class="navbar-brand"><b>R E G I D</b></a>
+
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+
+
+            <div class="collapse navbar-collapse"  id="navmenu">
+                <!-- collapse = akan hilang ketika layar diperbesar 
+                ms-auto
+                -->
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a href="" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a href="" class="nav-link">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <!--  header -->
+
+   <section class="header bg-light text dark text-center text-sm-block">
+        <div class="container ">
+            <div class="d-flex align-items-center">
+                <div>
+                    <h1>Welcome To <span class="text-primary text-black"><b>REGID</b></span></h1>
+                    <p class="lead">Regions. id was built on 11th September 2019. We're making Regions on purpose to gather around, gaming, and chill places efficiently. Region Of Indonesia is open to foreign people and natives as well. Regions. id will continue to develop until an undetermined time. Welcome in to our Region! , Please have a look and have fun !.</p>
+                    <button
+                    class="btn btn-primary btn-lg
+                    text-bg-dark p-3">Join Now!
+
+                    </button>
+                </div>
+
+                <img class="img-fluid w-50 d-none d-sm-block" src="images/header1.svg" alt="header">
+
+            </div>
+
+        </div>
+   </section>
+
+
+   <!-- responsive card -->
+<section class="pt-5" id="services">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                <div class="card" >
+                    <img src="images/undraw_terms_re_6ak4.svg" class="p-3 card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Regid Rules</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary btn-lg
+                      text-bg-dark p-2">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md">
+                <div class="card" >
+                    <img src="images/about.svg" class="p-3 card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">About Regid</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary btn-lg
+                      text-bg-dark p-2">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md">
+                <div class="card" >
+                    <img src="images/contact.svg" class="p-3 card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Contact Us!</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary btn-lg
+                      text-bg-dark p-2">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

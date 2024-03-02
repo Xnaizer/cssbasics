@@ -1,0 +1,35 @@
+/* ini adalah tag selector */
+h2{
+    color: aqua;
+}
+
+p{
+    color: blue;
+}
+
+
+/*  ini adalah class selektor */
+.h22 {
+    color: brown;
+}
+.p22 {
+    color: greenyellow;
+}
+
+
+/* ini adalah Id selector */
+
+#h23 {
+    color: black;
+}
+
+#p33 {
+    color: blueviolet;
+}
+
+/* Atau Yang lebih simpel bisa digabungin */
+h2,p {
+    color: darkgoldenrod;
+}
+
+/* bisa digabungin */
